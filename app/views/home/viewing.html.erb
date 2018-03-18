@@ -1,0 +1,46 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>Fridge-Log</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+    <div class="header">
+      <div class="header-logo">FridgeLog</div>
+       <div class="header-list">
+       <ul>
+        <li><a>LoggedPage</a></li>
+       </ul>
+      </div>
+    </div>
+
+    <div class="main">
+     <h1>記録を見る</h1>
+
+     <div class="contents">
+
+      <div class="contents-item">
+       <h2>この人の記録を見る</h2>
+   <a href="fridgelog_logedpage_people.html"><img src="https://drive.google.com/uc?id=1feeVnH3sJo6qvOZcx7mNsOv8ecrImsQq" width="150" height="150"></a>
+<!--※GoogleDriveから画像を読み込む際は、URLのopenをucに書き換える必要がある。-->
+
+  <div class="contents-item">
+       <h2>この飲み物の記録を見る</h2>
+       <a href="fridgelog_logedpage_drinks.html"><img src="https://drive.google.com/uc?id=1sQw9n8jhHp0M5QfiYZ2tdkNY3CJTIjzi" width="150" height="150"></a>
+
+      <div class="contents-item">
+       <h2>この日の記録を見る。</h2>
+       <p>#{yyyymmddhhmmss}の記録を見る</p>
+      </div>
+     </div>
+    </div>
+
+    <div class="footer">
+     <input onClick="location.href='/'" type="submit" value="トップページへ戻る">
+
+    </div>
+</body>
+</html>

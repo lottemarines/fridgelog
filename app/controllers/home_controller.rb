@@ -5,4 +5,7 @@ class HomeController < ApplicationController
   def recording
   end
   
+  def viewing
+  end
+  
 end
